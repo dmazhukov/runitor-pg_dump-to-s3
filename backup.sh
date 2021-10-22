@@ -2,6 +2,10 @@
 
 set -e
 
+if [ -n "$DEBUG" ]; then
+  set -x
+fi
+
 DB_USER="${DB_USER:-postgres}"
 DB_PORT="${DB_PORT:-5432}"
 
