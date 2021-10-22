@@ -1,7 +1,7 @@
-FROM ubuntu
+FROM postgres
 
 RUN apt update -y
-RUN apt install -y postgresql-client s3cmd ca-certificates
+RUN apt install -y s3cmd ca-certificates
 
 COPY backup.sh .
 
