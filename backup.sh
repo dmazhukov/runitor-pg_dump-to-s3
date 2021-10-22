@@ -2,8 +2,8 @@
 
 set -e
 
-DB_USER="${VARIABLE:-postgres}"
-DB_PORT="${VARIABLE:-5432}"
+DB_USER="${DB_USER:-postgres}"
+DB_PORT="${DB_PORT:-5432}"
 
 function usage() {
   echo "Usage: ./backup.sh"
