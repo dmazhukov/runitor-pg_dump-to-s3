@@ -1,1 +1,42 @@
 .idea/
+# Created by https://www.toptal.com/developers/gitignore/api/vscode,env
+# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,env
+
+#!! ERROR: env is undefined. Use list command to see defined gitignore types !!#
+
+#!! ERROR: vscode is undefined. Use list command to see defined gitignore types !!#
+
+# End of https://www.toptal.com/developers/gitignore/api/vscode,env
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,dotenv
+
+### dotenv ###
+.env
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,dotenv
